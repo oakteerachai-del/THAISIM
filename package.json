@@ -1,0 +1,18 @@
+{
+  "name": "thaisim-mci-tracking",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Thai-language mass casualty exercise tracking demo",
+  "engines": {
+    "node": ">=22.13 <23"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "qrcode": "^1.5.4"
+  }
+}
